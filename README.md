@@ -14,12 +14,12 @@ tag: Linux, RHEL7, networking
 ```bash
 nmcli d
 DEVICE  TYPE      STATE         CONNECTION         
-eth0    ethernet  connected     Wired connection 1 
+eth0    ethernet  connected     eth0 
 eth1    ethernet  disconnected  --                 
 eth2    ethernet  disconnected  --                 
 lo      loopback  unmanaged     -- 
 ```
-De modo que para el primer caso de prueba, primero se borra 
+De modo que para este caso de prueba, primero se cambia el nombre de la conección. 
 
 ### Especificación
 
