@@ -52,7 +52,7 @@ sudo shutdown -r now
 ip link
 # // END: Cambio nombre ...
 # Modificando configuración de la interface
-sudo nmcli c modify ${deviceGestion} autoconnect yes con-name ${nameGestion} ifname ${deviceGestion} ipv4.addresses ${ip} ipv4.method manual ipv4.gateway ${gateway} ipv4.dns ${dns}
+nmcli c modify eth0 ipv4.addresses 192.168.123.97 ipv4.method manual ipv4.gateway 192.168.123.1 ipv4.dns 8.8.8.8,8.8.4.4
 sudo shutdown -r now
 ```
 
